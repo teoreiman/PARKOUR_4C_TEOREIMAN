@@ -14,11 +14,11 @@ public class MoneyManager : MonoBehaviour
 
     public void UpdateMoney(float moneyToAdd)
     {
-        Debug.Log("update");
+        Debug.Log("ACTUALIZACION");
 
         if (money + moneyToAdd < 0)
         {
-            Debug.Log("No alcanza");
+            Debug.Log("No hay plata");
             return;
         }
         money += moneyToAdd;

@@ -16,8 +16,8 @@ public class RespawnOnFall : MonoBehaviour
     {
         if (transform.position.y < -25)
         {
-            Debug.Log("Te caiste");
-            SceneManager.LoadScene("FPSParkour");
+            Debug.Log("Me cai");
+            SceneManager.LoadScene("FPS Parkour TEOREIMAN");
         }
     }
 }

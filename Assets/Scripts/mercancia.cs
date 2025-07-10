@@ -16,7 +16,7 @@ public class mercancia : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            //alcualizar dinero por la compra
+            //resta de plata por compra
             moneyManager.UpdateMoney(-cost);
             Destroy(gameObject);
         }

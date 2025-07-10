@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class DeteccionColisores : MonoBehaviour
 {
-    // Start is called before the first frame update
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Contacto");
+        Debug.Log("Hay contacto");
         Destroy(collision.gameObject);
     }
 
-    // Update is called once per frame
     void Update()
     {
 
