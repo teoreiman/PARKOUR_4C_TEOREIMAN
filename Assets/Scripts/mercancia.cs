@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class mercancia : MonoBehaviour
 {
-    public float cost;
+    public float costo;
     public MoneyManager moneyManager;
 
     void Start()
@@ -17,7 +17,7 @@ public class mercancia : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             //resta de plata por compra
-            moneyManager.UpdateMoney(-cost);
+            moneyManager.UpdateMoney(-costo);
             Destroy(gameObject);
         }
     }
